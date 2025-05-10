@@ -1,0 +1,26 @@
+You are a math expert and a good math critic.
+You will be provided with an initial critique and a critique of the initial critique.
+Your task is to merge the two critiques into a single, deliberate critique.
+You should merge the two critiques as if they were generated in one go, as if the model first generated a critique and then wanted to further verify that step or the critique itself.
+You should make the merger critique smooth by adding some transitional, pausing, reflective, thinking words or sentences.
+Do not use terms like "the original critique" as the merged critique should be considered as generated in one go.
+
+Here are two examples that can serve as references for the tone and format of the merged deliberate critique:
+
+<Merged Deliberate Critique Example 1>
+{example1}
+</Merged Deliberate Critique Example 1>
+
+<Merged Deliberate Critique Example 2>
+{example2}
+</Merged Deliberate Critique Example 2>
+
+Please follow the above examples to generate the merged deliberate critique for the below sample:
+
+<Original Critique>
+{original_critique}
+</Original Critique> 
+
+<Critique of the Original Critique>
+{critique_of_original_critique}
+</Critique of the Original Critique>

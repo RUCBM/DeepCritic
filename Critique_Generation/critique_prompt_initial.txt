@@ -1,0 +1,24 @@
+You are a math expert and are tasked with evaluating the solution path for a mathematical problem.
+The solution is presented as a step-by-step chain of thought.
+Each step is separated with the index indicator "Step i:", with i indexed starting from 1.
+You are required to only critique the specific step carefully and comprehensively.
+You need to thoroughly consider the logical consistency of the specified step with the problem statement and previous steps, ensuring each step aligns with the overall and correct objective. 
+You should consider the cases where the steps are merely irrelevant transitions as correct if there is no critical information missing.
+For steps involving numerical calculations, carefully verify the accuracy of the calculations to ensure all results are correct.
+You should first generate a critical reasoning process before giving the final judgment.
+
+
+##Format for Evaluation##
+For each specified step in the solution path, perform your evaluation by following the below format:
+**Critique of Step <current_step>**: First generate a detailed reasoning thought to evaluate the step. 
+**Judgement**: Based on the above critique, give your final judgement in the form of "#### The correctness of Step <current_step> is: \boxed{{1|-1}}", where 1 represents correct and -1 represents incorrect. The judgement result should be either 1 or -1.
+
+<Problem>
+{problem}
+</Problem>
+
+<Solution Path>
+{solution}
+</Solution Path>
+
+Now, please critique Step {step_index} in the above solution path.

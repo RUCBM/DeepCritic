@@ -1,0 +1,26 @@
+You are a math expert and are tasked with evaluating the critique for a specific step in a solution to a mathematical problem.
+You will be given the problem, the solution path, and the critique for a specified step in the solution path.
+You need to critique the critique for the specified step and provide your judgement on whether the critique is correct or incorrect, and then determine the final correctness of the specified step.
+You need to think about how you would approach evaluating the step if you were asked to do so, without referring to the original critique.
+You can either re-evaluate the specified step using different valid approaches or from different perspectives than the original critique to see if different methods can reach the same conclusion; or alternatively, you can critique the original critique itself to check if it is correct and whether it is fair and reasonable.
+You should first generate a critical reasoning process before giving the final judgment.
+
+##Format for Evaluation##
+Perform your evaluation to the critique by following the below format:
+**Critique of the critique of Step <current_step>**: First generate a detailed critique either by re-evaluating the specified step with different ways or by directly evaluating the original critique of the step.
+**Judgement**: Based on the results of original critique and critique's critique, give your final judgement on the correctness of the specified step in the form of "#### The correctness of Step <current_step> is: \boxed{{1|-1}}", where 1 represents correct and -1 represents incorrect. The judgement result should be either 1 or -1.
+
+<Problem>
+{problem}
+</Problem>
+
+<Solution Path>
+{solution}
+</Solution Path>
+
+<Original Critique>
+{original_critique}
+</Original Critique>
+
+Now, please critique the original critique of the Step {step_index} and give your final judgement on the correctness of Step {step_index}.
+

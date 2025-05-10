@@ -1,0 +1,16 @@
+The following is a math problem and a solution.
+The solution is presented as a step-by-step chain of thought.
+Each step is separated with the index indicator "Step i:", with i indexed starting from 1.
+
+<Problem>
+{problem}
+</Problem>
+
+<Solution>
+{tagged_response}
+</Solution>
+
+Your task is to evaluate the solution and identify the earliest step that contains an error, or confirm that all steps are correct.
+Please first review and generate a critique for each step.
+After reviewing each step, once you identify an error in the step, stop the critique and return the index of that step as this is the step where the earliest error occurs. Otherwise, continue reviewing the subsequent setps. If all steps are correct, return the index of -1 (which typically denotes "not found").
+Finally, put your final answer (i.e., the step index) in \boxed{{}}.
