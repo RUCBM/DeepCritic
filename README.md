@@ -10,8 +10,8 @@
 ---------
 
 ## News
-- [2024.05.11] We upload the code for deliberate critique generation, supervised fine-tuning and evaluation. The code for RL data generation and RL training, the created SFT data and the checkpoints will be uploaded soon.
-- [2024.05.01] We release our paper on [arxiv](https://arxiv.org/pdf/2505.00662).
+- [2025.05.11] We upload the code for deliberate critique generation, supervised fine-tuning and evaluation. The code for RL data generation and RL training, the created SFT data and the checkpoints will be uploaded soon.
+- [2025.05.01] We release our paper on [arxiv](https://arxiv.org/pdf/2505.00662).
 
 
 ## Installation
