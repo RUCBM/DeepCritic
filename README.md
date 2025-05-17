@@ -10,8 +10,18 @@
 ---------
 
 ## News
-- [2025.05.11] We upload the code for deliberate critique generation, supervised fine-tuning and evaluation. The code for RL data generation and RL training, the created SFT data and the checkpoints will be uploaded soon.
+- [2025.05.17] We upload the SFT and RL models, along with the curated SFT and RL data.
+- [2025.05.11] We upload the code for deliberate critique generation, supervised fine-tuning and evaluation.
 - [2025.05.01] We release our paper on [arxiv](https://arxiv.org/pdf/2505.00662).
+
+## Models and Data
+|           Name         |   |
+|------------------------|:------|
+|   DeepCritic-7B-SFT       | [hf model](https://huggingface.co/Keven16/DeepCritic-7B-SFT)   |
+| DeepCritic-7B-RL-PRM800K | [hf model](https://huggingface.co/Keven16/DeepCritic-7B-RL-PRM800K) |
+| DeepCritic-7B-RL-Numina | [hf model](https://huggingface.co/Keven16/DeepCritic-7B-RL-Numina) |
+| SFT Data | [hf dataset](https://huggingface.co/datasets/Keven16/DeepCritic-4.5K) | 
+| RL Data |  [hf dataset](https://huggingface.co/datasets/Keven16/DeepCritic-RL-Data)  |
 
 
 ## Installation
@@ -44,6 +54,9 @@ Then, you can perform SFT by running
 sh sft/run_sft.sh
 ```
 
+## RL
+Our RL is mainly based on the open-source training platform [verl](https://github.com/volcengine/verl).
+
 ## Evaluation
 Our evaluation code is mainly based on [ProcessBench](https://github.com/QwenLM/ProcessBench), and you can run the following script to perform evaluation on critique models:
 ```bash
@@ -53,7 +66,7 @@ sh scripts/run_eval.sh
 ## Acknowledgments
 Our code is mainly based on [alignment-handbook](https://github.com/huggingface/alignment-handbook), [verl](https://github.com/volcengine/verl), and [ProcessBench](https://github.com/QwenLM/ProcessBench). We sincerely thank them for their open-sourcing!
 
-## Citaion
+## Citation
 If you find our work helpful, please kindly cite as
 ```bibtex
 @article{yang2025deepcritic,
