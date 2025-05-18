@@ -10,6 +10,7 @@
 ---------
 
 ## News
+- [2025.05.18] We upload the code for RL data generation via Monte Carlo sampling-based correctness estimation.
 - [2025.05.17] We upload the SFT and RL models, along with the curated SFT and RL data.
 - [2025.05.11] We upload the code for deliberate critique generation, supervised fine-tuning and evaluation.
 - [2025.05.01] We release our paper on [arxiv](https://arxiv.org/pdf/2505.00662).
@@ -55,7 +56,14 @@ sh sft/run_sft.sh
 ```
 
 ## RL
-Our RL is mainly based on the open-source training platform [verl](https://github.com/volcengine/verl).
+### RL Data Generation
+We provide the code for RL data generation via Monte Carlo sampling-based correctness estimation in the ``Critique_Generation/`` directory. The example commands are in ``scripts/run_rollout.sh``.
+```bash
+sh scripts/run_rollout.sh
+```
+
+### RL Training
+Our RL training is mainly based on the open-source training platform [verl](https://github.com/volcengine/verl).
 
 ## Evaluation
 Our evaluation code is mainly based on [ProcessBench](https://github.com/QwenLM/ProcessBench), and you can run the following script to perform evaluation on critique models:
