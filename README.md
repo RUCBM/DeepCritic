@@ -20,12 +20,12 @@
 
 | Model | MR-GSM8K | PRM800K | GSM8K | MATH | OlympiadBench | Omni-Math | Avg. |
 |-------|----------|---------|-------|------|-----------------|------------|------|
-| *Process Reward Models (PRMs)* ||||||||
+| ***Process Reward Models (PRMs)*** ||||||||
 | Math-Shepherd-PRM-7B | 61.8 | 21.7 | 48.2 | 27.1 | 20.5 | 16.3 | 32.6 |
 | RLHFlow-PRM-8B-Mistral | 66.6 | 25.2 | 50.9 | 32.0 | 13.8 | 15.7 | 34.0 |
 | RLHFlow-PRM-8B-DeepSeek | 44.8 | 18.5 | 32.3 | 34.2 | 16.0 | 18.3 | 27.4 |
 | Qwen2.5-Math-7B-PRM800K | 70.8 | 55.6 | 70.5 | 64.7 | 50.0 | 42.7 | 59.7 |
-| *Large Language Models, served as Critique Models* ||||||||
+| ***Large Language Models, served as Critique Models*** ||||||||
 | LLaMA3.1-8B-Instruct | 31.6 | 16.0 | 23.8 | 18.9 | 18.3 | 17.2 | 21.0 |
 | Qwen2.5-7B-Instruct | 48.1 | 25.6 | 42.9 | 36.6 | 25.5 | 25.9 | 34.1 |
 | Qwen2.5-Math-7B-Instruct | 35.6 | 19.4 | 23.1 | 22.0 | 9.2 | 10.4 | 20.0 |
@@ -35,7 +35,7 @@
 | Qwen2.5-72B-Instruct | 72.6 | 45.3 | 72.2 | 52.4 | 41.9 | 43.1 | 54.6 |
 | Qwen2.5-Math-72B-Instruct | 73.6 | 41.0 | 68.6 | 48.5 | 28.6 | 27.3 | 47.9 |
 | GPT-4o | 69.7 | 45.9 | 72.1 | 57.3 | 50.5 | 53.4 | 58.2 |
-| *Our Critique Models* ||||||||
+| ***Our Critique Models*** ||||||||
 | DeepCritic-7B-SFT | 67.1 | 48.0 | 59.2 | 61.2 | 46.0 | 43.0 | 54.1 |
 | DeepCritic-7B-RL-Numina | 77.2 | 55.9 | 70.7 | 65.9 | 57.6 | 53.5 | 63.5 |
 | DeepCritic-7B-RL1.5-Numina | 78.6 | 57.1 | 75.2 | 70.0 |  54.3 | 51.2 | 64.4 |
